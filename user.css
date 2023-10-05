@@ -1,0 +1,95 @@
+.main {
+    background-color: rgb(217, 216, 216);
+
+}
+
+.home {
+    background-color: white;
+    height: 60px;
+    padding-top: 12px;
+    border-radius: 2%;
+    margin:0 20px 20px 20px;
+    padding-left: 20px;
+
+}
+
+.upper {
+    display: flex;
+    width: 100%
+}
+
+.profile,
+.bio {
+    width: 300px;
+    height: 400px;
+    margin: 20PX;
+}
+
+.profile {
+    width: 475px;
+    height: 430px;
+    background-color: white;
+    border-radius: 2%;
+}
+
+#profiletext {
+    text-align: center;
+}
+
+.bio {
+    width: 950px;
+    height: 430px;
+    margin: 2vh;
+    background-color: white;
+    border-radius: 2%;
+    padding-left: 20px
+}
+
+#profilepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+}
+
+.table {
+    line-height: 4em;
+}
+
+.lower {
+    display: flex;
+}
+
+.social,
+.assignment1,
+.assignment2 {
+    margin: 2vh;
+    width: 500px;
+    height: 500px;
+    line-height: 4em;
+    background-color: white;
+    padding: 5px;
+    border-radius: 2%;
+}
+
+img {
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.social {
+    line-height: 5em;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    margin-right: 10px;
+}
